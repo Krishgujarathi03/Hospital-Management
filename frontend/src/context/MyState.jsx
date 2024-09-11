@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MyContext from "./MyContext";
 
 const MyState = ({ children }) => {
-  const url = "http://localhost:4000";
+  const url = "https://hospital-management-backend-uaw9.onrender.com";
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState({});
 
